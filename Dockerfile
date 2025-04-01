@@ -16,7 +16,7 @@ RUN pip install psycopg2
 COPY ./app.py /app
 
 # Nastavenie premennej prostredia
-ENV FLASK_APP app.py
+ENV FLASK_APP=app.py
 
 # Program na spustenie
 ENTRYPOINT [ "flask" ]
