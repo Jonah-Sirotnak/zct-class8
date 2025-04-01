@@ -28,4 +28,4 @@ jobs:
         with: 
           context: .
           push: true
-          tags: zct-class6
+          tags: jonassirotnak/zct-class6
